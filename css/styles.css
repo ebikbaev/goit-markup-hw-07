@@ -86,11 +86,13 @@ body {
 }
 .header-container {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
 }
 .header-logo {
-  margin-right: 76px;
+  margin-right: 120px;
+  display: flex;
   align-items: center;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -150,18 +152,23 @@ body {
 
 .header-nav {
   /* gap: 40px; */
-  /* align-items: center;
-  display: flex; */
-  color: var(--navy-blue);
+  /* align-items: center; */
+  /* display: flex; 
+  color: var(--navy-blue); */
 }
-
+.nav-list {
+  gap: 40px;
+  align-items: center;
+  display: flex;
+}
 .nav-list,
 .header-address {
   display: none;
 }
+
 .address-menu {
-  /* gap: 40px;
-  display: flex;
+  /* gap: 40px; */
+  /* display: flex;
   align-items: center; */
   color: var(--navy-blue);
 }
@@ -255,7 +262,9 @@ body {
   /* display: flex; */
   /* gap: 24px; */
 }
-.caption-list {
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
   /* flex-basis: calc((100%-3 * 24) / 4); */
 }
 .caption-texts {
@@ -592,6 +601,12 @@ body {
 .social-media-container {
   /* margin-left: 120px; */
 }
+.social-media-container .list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 72px;
+}
 .social-media-list {
   display: flex;
   flex-wrap: wrap;
@@ -681,7 +696,7 @@ body {
 }
 .modal-window {
   position: absolute;
-  width: 408px;
+  min-width: 320px;
   height: 586px;
   top: 50%;
   left: 50%;
@@ -701,9 +716,9 @@ body {
   position: absolute;
   top: 24px;
   right: 24px;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);
@@ -814,7 +829,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -895,8 +910,8 @@ body {
 }
 .modal-privacy-wrapper {
   margin-bottom: 24px;
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center;
 }
 .modal-privacy-checkbox {
   appearance: none;
@@ -904,12 +919,13 @@ body {
 
 .visual-checkbox {
   /* display: flex; */
+
   width: 16px;
   height: 16px;
   border: 1.25px solid #2e2f42;
   border-radius: 2px;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
+  justify-content: center;
   margin-right: 8px;
   fill: transparent;
   transition-property: background-color, fill;
@@ -941,8 +957,8 @@ body {
   color: var(--iris);
 }
 .modal-button-wrapper {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 .modal-button-wp {
   padding: 16px 32px;

@@ -2,6 +2,14 @@
   .container {
     width: 428px;
   }
+  .social-icons-item:not(:last-child){
+margin-right: 56px;
+  }
+  .modal-window
+  {
+    max-width: 392px;
+    width: calc(100vw - 30px);
+  }
 }
 @media screen and (min-width: 768px) {
   .container {

@@ -899,8 +899,21 @@ body {
   color: var(--brown);
   border-color: var(--iris);
 }
+
+.label-comment-area
+ {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+.form-field {
+  margin-bottom: 8px;
+}
 .form-field label {
-  margin-top: 8px;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -999,7 +1012,7 @@ body {
   top: 0;
   left: 0;
   background-color: var(--white);
-  padding: 80px 25px 40px 25px;
+  padding: 80px 35px 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

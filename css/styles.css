@@ -697,7 +697,7 @@ body {
 .modal-window {
   position: absolute;
   min-width: 320px;
-  height: 586px;
+  min-height: 586px;
   top: 50%;
   left: 50%;
   padding-right: 24px;
@@ -918,7 +918,7 @@ body {
 }
 
 .visual-checkbox {
-  /* display: flex; */
+  display: flex;
 
   width: 16px;
   height: 16px;
@@ -939,17 +939,17 @@ body {
 }
 
 .privacy-label {
-  /* align-items: center;
-  display: flex; */
+  align-items: center;
+  display: flex;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 8px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
 .privacy-link {
-  font-size: 12px;
+  font-size: 8px;
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration: underline;

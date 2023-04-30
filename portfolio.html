@@ -23,14 +23,14 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
-      <div class="container header-container">
-        <nav class="list header-nav">
-          <a href="./index.html" class="header-logo link"
-            >Web<span class="header-logo-span link">Studio</span></a
+    <header class="portfolio-header">
+      <div class="portfolio-container header-container">
+        <nav class="list portfolio-header-nav">
+          <a href="./index.html" class="portfolio-header-logo link"
+            >Web<span class="portfolio-header-logo-span link">Studio</span></a
           >
 
-          <ul class="list header-nav">
+          <ul class="list portfolio-header-nav">
             <li class="header-item">
               <a href="./index.html" class="header-link-text link">Studio</a>
             </li>
@@ -38,7 +38,7 @@
             <li class="header-item">
               <a
                 href="./portfolio.html"
-                class="header-link-text header-anim link"
+                class="header-link-text portfolio-header-anim link"
               >
                 Portfolio</a
               >
@@ -50,8 +50,8 @@
           </ul>
         </nav>
 
-        <address class="list header-address">
-          <ul class="list address-menu">
+        <address class="list portfolio-header-address">
+          <ul class="list portfolio-address-menu">
             <li>
               <a
                 href="mailto:info@devstudio.com"
@@ -72,7 +72,7 @@
     </header>
     <main>
       <section class="porftolio-section">
-        <div class="container">
+        <div class="portfolio-container">
           <h1 class="visually-hidden">Portfolio</h1>
 
           <ul class="list btn-container">
@@ -308,20 +308,20 @@
       </section>
     </main>
     <!-- footer  -->
-    <footer class="footer">
-      <div class="footer-container container">
+    <footer class="portfolio-footer">
+      <div class="portfolio-footer-container portfolio-container">
         <div>
-          <a href="./index.html" class="footer-logo link"
-            >Web<span class="footer-span">Studio</span></a
+          <a href="./index.html" class="porftolio-footer-logo link"
+            >Web<span class="portfolio-footer-span">Studio</span></a
           >
-          <p class="footer-comment">
+          <p class="portfolio-footer-comment">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
         </div>
-        <div class="social-media-container">
-          <p class="our-social-media">Social media</p>
-          <ul class="list social-media-list">
+        <div class="porftolio-social-media-container">
+          <p class="portfolio-our-social-media">Social media</p>
+          <ul class="list footer-social-media-list">
             <li class="link">
               <a class="footer-social-media-link" href="">
                 <svg class="footer-social">
@@ -353,24 +353,26 @@
           </ul>
         </div>
 
-        <form class="footer-form">
-          <div>
-            <label for="email" class="label-text"> Subscribe </label>
+        <div class="portfolio-footer-form-position">
+          <p class="portfolio-label-text">Subscribe</p>
+          <form class="portfolio-footer-form">
+            <label for="email" class="label-text"> </label>
             <input
               id="email"
               type="email"
               name="email"
               placeholder="E-mail"
-              class="footer-form-imput"
+              class="portfolio-footer-form-imput"
             />
-          </div>
-          <button type="Subscribe" class="form-button defolt-btn">
-            Subscribe
-            <svg width="24" height="24" class="form-svg">
-              <use href="./images/symbol-defs.svg#icon-footer-button"></use>
-            </svg>
-          </button>
-        </form>
+
+            <button type="submit" class="portfolio-form-button defolt-btn">
+              Subscribe
+              <svg width="24" height="24" class="form-svg">
+                <use href="./images/symbol-defs.svg#icon-footer-button"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>

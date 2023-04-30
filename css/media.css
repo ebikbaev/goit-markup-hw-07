@@ -2,6 +2,9 @@
   .container {
     width: 428px;
   }
+  .customers-size {
+    flex-basis: calc((100% - 16px) / 2);
+  }
   .social-icons-item:not(:last-child) {
     margin-right: 56px;
   }
@@ -27,6 +30,15 @@
   .container {
     width: 768px;
   }
+  .caption-list:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .social-media-container {
+    margin-bottom: 0;
+  }
+  .customers-size {
+    flex-basis: calc((100% - 48px) / 3);
+  }
   .header-anim {
     position: relative;
     color: var(--ocean);
@@ -42,7 +54,7 @@
     background: var(--ocean);
     border-radius: 2px;
   }
-  .header-contacts-item:not(:last-child){
+  .header-contacts-item:not(:last-child) {
     margin-bottom: 11px;
   }
   .our-customers-sections > .container {
@@ -175,8 +187,13 @@
     width: 1158px;
   }
   .header-contacts-item:not(:last-child) {
-  
     margin-bottom: 0;
+  }
+  .customers-size {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+  .caption-list:not(:last-child) {
+    margin-bottom: 0px;
   }
   .header-logo {
     margin-right: 76px;
@@ -275,7 +292,7 @@
   }
   .work-hero {
     display: block;
-    
+
     padding-bottom: 120px;
   }
   .work-hero .list {
@@ -318,6 +335,7 @@
   }
   .social-media-container {
     margin-left: 120px;
+    margin-bottom: 0;
   }
   .footer-form-position {
     margin-left: 80px;
